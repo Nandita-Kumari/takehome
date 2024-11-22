@@ -1,0 +1,5 @@
+Step 1 - Download this repository or clone it.
+Step 2 - Go to takehome-frontend folder in your terminal, then type "npm install" to install all dependencies.
+Step 3 - Then run "npm run dev" to start the application.
+Step 4 - Now navigate to the takehome-backend folder in your termianal.
+Step 5 - Run "node server.js" to start the server.

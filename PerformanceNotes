@@ -1,0 +1,19 @@
+Performance Notes (Short Version)
+
+Backend (API) Performance
+-----------------------------
+1. Pagination: Use cursor-based pagination for efficient data retrieval without overloading the server.
+2. Database Indexing: Index fields used for filtering and sorting (e.g., orderId, createdAt) to speed up queries.
+3. Avoid N+1 Queries: Use joins or populate to minimize multiple database queries.
+4. Caching: Use caching (e.g., Redis) for frequently accessed data.
+5. Efficient Sorting: Ensure sorting is done on indexed fields to improve performance.
+
+
+Frontend Performance
+---------------------
+1. Lazy Loading: Implement infinite scrolling to load data incrementally.
+2. Virtualization: Use libraries like react-virtualized to render only visible items in long lists.
+3. Memoization: Avoid unnecessary re-renders using React.memo().
+4. Debouncing: Implement debouncing for search or filter inputs to reduce frequent API calls.
+
+

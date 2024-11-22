@@ -1,0 +1,9 @@
+Orders API Documentation
+
+
+Base URL:
+http://localhost:3001/api/orders
+
+Description:
+This API provides a paginated list of orders, which includes details such as the customer's name, order amount, status, and the creation date. The orders are sorted by creation date in descending order.
+
